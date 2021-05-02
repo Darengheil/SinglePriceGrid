@@ -16,6 +16,9 @@ body{
 .title{
     background-color: white;
     padding: 2em 3em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 10px 30px rgb(194, 194, 194);
 }
 
 .downpart{
@@ -26,12 +29,14 @@ body{
 .subscription{
     background-color: hsl(179, 62%, 43%);
     padding: 2em 3em;
+    border-bottom-left-radius: 10px;
 }
 
 .description{
     background-color: hsl(179, 33%, 41%);
     padding: 2em 3em;
     padding-right: 5em;
+    border-bottom-right-radius: 10px;
 }
 
 .buttonMain{
@@ -48,5 +53,41 @@ body{
 }
 
 @media (max-width: 900px) {
+    .container{
+        left: 7%;
+        top: 20%;
+    }
+}
 
+@media (max-width: 700px) {
+    .container{        
+        display: flex;
+        flex-direction: column;
+        left: 0;
+        top: 0;
+        margin: 3em 1em;
+    }
+    .title{
+        padding: 1em 2em;
+        box-shadow: none;
+    }
+    .forMobile{
+        font-size: 16px;
+    }
+    .smallerText{
+        font-size: 14px;
+    }
+    .downpart{
+        flex-direction: column;
+        margin-bottom: 3em;
+    }
+    .subscription{
+        border-bottom-left-radius: 0;
+        padding: 1em 2em;
+        padding-bottom: 1.5em;
+    }
+    .description{
+        border-bottom-left-radius: 10px;   
+        padding: 1em 2em;     
+    }
 }
