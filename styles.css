@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body{
+    font-family: "Karla";
+    font-size: 16px;
+    background-color:hsl(204, 43%, 93%);  
+    color: white; 
+}
+
+.container{
+    position: absolute;
+    left: 30%;
+    top: 25%;
+}
+
+.title{
+    background-color: white;
+    padding: 2em 4em;
+}
+
+.downpart{
+    display: flex;
+    justify-content: center;
+}
+
+.subscription{
+    background-color: hsl(179, 62%, 43%);
+    padding: 2em 3em;
+}
+
+.description{
+    background-color: hsl(179, 33%, 41%);
+    padding: 2em 3em;
+    padding-right: 5em;
+}
+
+
+
+@media (max-width: 900px) {
+
+}
