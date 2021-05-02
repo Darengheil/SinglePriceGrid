@@ -15,7 +15,7 @@ body{
 
 .title{
     background-color: white;
-    padding: 2em 4em;
+    padding: 2em 3em;
 }
 
 .downpart{
@@ -34,7 +34,18 @@ body{
     padding-right: 5em;
 }
 
-
+.buttonMain{
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 1em 2em;
+    border-radius: 5px;
+    margin-top: 1em;
+    box-shadow: 0 10px 30px rgb(88, 88, 88);
+    font-weight: 700;
+    font-size: 16px;
+}
 
 @media (max-width: 900px) {
 
